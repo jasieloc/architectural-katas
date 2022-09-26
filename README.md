@@ -1,1 +1,1 @@
-# architetural-katas
+# architectural-katas
