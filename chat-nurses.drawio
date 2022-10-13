@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T19:22:57.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jqUqJQnJoeJPNRqqr35z" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T20:36:56.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hmOi2hpm75cobwqWUrbz" version="20.4.0" type="github">
   <diagram id="KMkLS6SZUert5sOirfcd" name="Page-1">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="83vPISlT9Hn9MjfiydqY-9" value="API Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="260" y="587" width="76.5" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="83vPISlT9Hn9MjfiydqY-11" value="Put MedicalHistory" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;fontSize=12;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="83vPISlT9Hn9MjfiydqY-11" value="Add MedicalHistory" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;fontSize=12;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="479" y="430" width="47.88" height="50" as="geometry" />
         </mxCell>
         <mxCell id="83vPISlT9Hn9MjfiydqY-13" value="Patient History DB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.documentdb_with_mongodb_compatibility;" vertex="1" parent="1">
@@ -227,6 +227,30 @@
               <mxPoint x="700" y="613" />
               <mxPoint x="700" y="645" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83vPISlT9Hn9MjfiydqY-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="433.5" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="83vPISlT9Hn9MjfiydqY-61" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_iphone_proportional;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="961.5" y="503.5" width="17" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="83vPISlT9Hn9MjfiydqY-62" value="Patients" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="940" y="534.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="83vPISlT9Hn9MjfiydqY-64" value="API Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1082.5" y="570.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="83vPISlT9Hn9MjfiydqY-66" value="Nurses" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_iphone_proportional;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="961.5" y="633.5" width="17" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="83vPISlT9Hn9MjfiydqY-76" value="Chat system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="370" width="147.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="83vPISlT9Hn9MjfiydqY-77" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#999999;fontFamily=Verdana;fontSize=20;fontColor=#999999;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="891" y="910" as="sourcePoint" />
+            <mxPoint x="891" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
